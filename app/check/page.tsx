@@ -1,13 +1,12 @@
 import React from 'react'
-import First from "@/app/component/first"
+import Scan from "@/app/component/scan"
 
 const page = () => {
   return (
     <div>
-      <div>
-        <First/>
-
-      </div>
+        <div>
+            <Scan/>
+        </div>
     </div>
   )
 }
