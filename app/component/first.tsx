@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Homepage() {
   return (
     <div className="bg-gray-200">
-      <div className="relative bg-[url('/backj.png')] bg-cover bg-center bg-no-repeat bg-fixed">
+      <div className="relative bg-[url('/image.png')] bg-cover bg-center bg-no-repeat bg-fixed">
         <div className="absolute inset-0 bg-linear-to-r from-white/90 via-white/70 to-transparent pointer-events-none" />
 
         <div className="relative max-w-7xl px-6 py-28 flex">
@@ -28,7 +28,7 @@ export default function Homepage() {
             </p>
 
             <div className="py-10 md:py-14">
-              <div className="flex flex-wrap gap-x-10 gap-y-3 text-slate-800">a
+              <div className="flex flex-wrap gap-x-10 gap-y-3 text-slate-800">
                 <div>⚡ Instant Threat Detection</div>
                 <div>🛡️ Secure & Reliable Analysis</div>
                 <div>🔍 Real-Time URL Inspection</div>
